@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contactos</title>
+</head>
+<body>
+    <div class="container">
+        <!--head-->
+        <h2>agenda de Contactos</h2>
+        <!--agenda de contactos-->
+        <div class="contacto">
+            <input type="text" class="id" placeholder="# ID">
+            <input type="text" class="nombres" placeholder="Nombres">
+            <input type="text" class="apellidos" placeholder="Apellidos">
+            <input type="text" class="telefono" placeholder="Telefono">
+            <input type="text" class="correo" placeholder="Correo">
+            <input type="text" class="direccion" placeholder="Direccion">
+            <input type="text" class="ciudad" placeholder="Ciudad">
+            <button class="btn-agregar-tarea">agregar contacto</button>
+        </div>
+            <!--lista de contactos-->
+        <div class="listado-tareas">
+            <div class="tarea">
+                <h3 id="hid">id</h3>
+                <h3 id="hid">nombre</h3>
+                <p id="hid">apellidos</p>
+                <p id="hid">telefono</p>
+                <p id="hid">correo</p>
+                <p id="hid">direccion</p>
+                <p id="hid">ciudad</p>
+                <span id="hid" class="material-icons icono">
+                    delete_forever
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="Funciones.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
